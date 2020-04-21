@@ -9,7 +9,8 @@ function Header() {
         flexDirection: "column",
         backgroundColor: "#615494",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        paddingBottom: "80px",
       }}
     >
       <div
@@ -18,7 +19,7 @@ function Header() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          paddingTop: 60
+          paddingTop: 60,
         }}
       >
         <div
@@ -26,7 +27,7 @@ function Header() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: "center"
+            alignItems: "center",
           }}
         >
           <img
@@ -36,7 +37,7 @@ function Header() {
               width: 144,
               height: 144,
               borderWidth: 12,
-              borderRadius: 100
+              borderRadius: 100,
             }}
           />
 

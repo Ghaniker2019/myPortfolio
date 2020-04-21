@@ -1,0 +1,5 @@
+.navOnHover :hover {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
