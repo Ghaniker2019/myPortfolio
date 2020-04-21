@@ -10,19 +10,21 @@ function Fouter() {
         paddingBottom: 100,
         backgroundColor: "#615494",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
       }}
     >
-      <h3
+      <p
         style={{
           color: "#FFFFFF",
           flex: 1,
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
+          fontSize: "16px",
+          fontWeight: "lighter",
         }}
       >
         Site réalisé par Ghani Kerkoub © 2020
-      </h3>
+      </p>
     </div>
   );
 }
