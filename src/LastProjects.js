@@ -24,7 +24,7 @@ export default class LastProjects extends Component {
               alt="allocine"
             />
           </div>
-          <h3> Trainline </h3>
+          <h3 style={{ marginTop: "20px" }}> Trainline </h3>
           <p
             style={{
               paddingBottom: 30,
@@ -67,7 +67,7 @@ export default class LastProjects extends Component {
               alt="allocine"
             />
           </div>
-          <h3> Allocine </h3>
+          <h3 style={{ marginTop: "20px" }}> Allocine </h3>
           <p
             style={{
               paddingBottom: 30,

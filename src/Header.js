@@ -7,7 +7,7 @@ function Header() {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#615494",
+        backgroundColor: "#5C48D3",
         justifyContent: "center",
         alignItems: "center",
         paddingBottom: "80px",

@@ -8,7 +8,7 @@ class Sections extends React.Component {
     return (
       <div
         style={{
-          backgroundColor: "#615494",
+          backgroundColor: "#5C48D3",
         }}
       >
         <div
@@ -21,6 +21,7 @@ class Sections extends React.Component {
           }}
         >
           <nav
+            className="navBar"
             style={{
               height: "60px",
               backgroundColor: "#F7F7F7",
@@ -35,7 +36,6 @@ class Sections extends React.Component {
                 flex: 1,
                 justifyContent: "center",
                 padding: "10px 5px 10px 5px",
-
                 listStyle: "none",
                 margin: 0,
                 border: 0,
@@ -43,75 +43,23 @@ class Sections extends React.Component {
                 verticalAlign: "baseline",
               }}
             >
-              <li
-                className="navOnHover"
-                style={{
-                  margin: "5px 40px 0 40px",
-                }}
-              >
-                <a
-                  style={{
-                    color: "#636363",
-                    textDecoration: "none",
-                    fontSize: "18px",
-                    padding: "10px 40px 10px 40px",
-                  }}
-                  href="#section01"
-                >
+              <li className="navList">
+                <a className="aUnderLi" href="#section01">
                   Qui suis - je ?
                 </a>
               </li>
-              <li
-                className="navOnHover"
-                style={{
-                  margin: "5px 40px 0 40px",
-                }}
-              >
-                <a
-                  style={{
-                    color: "#636363",
-                    textDecoration: "none",
-                    fontSize: "18px",
-                    padding: "10px 40px 10px 40px",
-                  }}
-                  href="#section02"
-                >
+              <li className="navList">
+                <a className="aUnderLi" href="#section02">
                   Projects
                 </a>
               </li>
-              <li
-                className="navOnHover"
-                style={{
-                  margin: "5px 40px 0 40px",
-                }}
-              >
-                <a
-                  style={{
-                    color: "#636363",
-                    textDecoration: "none",
-                    fontSize: "18px",
-                    padding: "10px 40px 10px 40px",
-                  }}
-                  href="#section03"
-                >
+              <li className="navList">
+                <a className="aUnderLi" href="#section03">
                   Compétences
                 </a>
               </li>
-              <li
-                className="navOnHover"
-                style={{
-                  margin: "5px 40px 0 40px",
-                }}
-              >
-                <a
-                  style={{
-                    color: "#636363",
-                    textDecoration: "none",
-                    fontSize: "18px",
-                    padding: "10px 40px 10px 40px",
-                  }}
-                  href="#section04"
-                >
+              <li className="navList">
+                <a className="aUnderLi" href="#section04">
                   Contact
                 </a>
               </li>
@@ -124,16 +72,7 @@ class Sections extends React.Component {
                   textAlign: "center",
                 }}
               >
-                <h1
-                  style={{
-                    paddingBottom: "10px",
-                    borderBottom: "1px solid #615494",
-                    fontSize: "37px",
-                    margin: "150px 250px 20px 250px",
-                  }}
-                >
-                  Qui suis - je
-                </h1>
+                <h1 className="titles">Qui suis - je</h1>
                 <p style={{ margin: "5px 25px 5px 25px" }}>
                   Je m 'appelle Kerkoub Abdelghani. Je suis développeur Web &
                   Mobile depuis 1 ans déjà.J 'ai été formé au Reacteur (Paris)
@@ -152,16 +91,7 @@ class Sections extends React.Component {
                 textAlign: "center",
               }}
             >
-              <h1
-                style={{
-                  paddingBottom: "10px",
-                  borderBottom: "1px solid #615494",
-                  fontSize: "37px",
-                  margin: "150px 250px 20px 250px",
-                }}
-              >
-                Mes derniers projects
-              </h1>
+              <h1 className="titles">Mes derniers projects</h1>
               <div>
                 <p> Voici quelques projets Web réalisés ces derniers temps. </p>
               </div>
@@ -174,16 +104,7 @@ class Sections extends React.Component {
                 textAlign: "center",
               }}
             >
-              <h1
-                style={{
-                  paddingBottom: "10px",
-                  borderBottom: "1px solid #615494",
-                  fontSize: "37px",
-                  margin: "150px 250px 20px 250px",
-                }}
-              >
-                Mes compétences techniques
-              </h1>
+              <h1 className="titles">Mes compétences techniques</h1>
               <p>Voici l'étendue de mes compétences en programmation.</p>
               <img
                 style={{
@@ -229,16 +150,7 @@ class Sections extends React.Component {
                 textAlign: "center",
               }}
             >
-              <h1
-                style={{
-                  paddingBottom: "10px",
-                  borderBottom: "1px solid #615494",
-                  fontSize: "37px",
-                  margin: "150px 250px 20px 250px",
-                }}
-              >
-                Contact
-              </h1>
+              <h1 className="titles">Contact</h1>
               <Contact />
             </article>
           </section>
