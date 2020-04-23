@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./contact.css";
 export default class Contact extends Component {
   state = {
     name: "",
@@ -48,9 +48,9 @@ export default class Contact extends Component {
             placeholder="Tapez votre message ici..."
           ></textarea>
           <button
-            style={{ marginTop: "50px" }}
+            style={{ padding: "15px 30px 15px 30px" }}
             type="button"
-            class="btn btn-secondary btn-lg"
+            class="btn-light btn"
           >
             Envoyer le message
           </button>

@@ -7,23 +7,13 @@ export default class Projects extends Component {
       <div>
         <div className="project">
           <img
-            style={{
-              height: 300,
-              width: 600,
-              maxWidth: "100%",
-              position: "relative",
-              margin: "10 10 10 10",
-            }}
+            className="img_project"
             src={require("./img/myTrainline.png")}
             alt="allocine"
           />
 
-          <h3 style={{ marginTop: "20px" }}> Trainline </h3>
-          <p
-            style={{
-              paddingBottom: 30,
-            }}
-          >
+          <h3 className="title_project"> Trainline </h3>
+          <p>
             Ceci est un site réalisé pour la société lambda.Il a été créé grâce
             au langage HTML et CSS.
           </p>
@@ -53,12 +43,8 @@ export default class Projects extends Component {
             src={require("./img/allocine.png")}
             alt="allocine"
           />
-          <h3 style={{ marginTop: "20px" }}> Allocine </h3>
-          <p
-            style={{
-              paddingBottom: 30,
-            }}
-          >
+          <h3 className="title_project"> Allocine </h3>
+          <p>
             Ceci est un site réalisé pour la société lambda.Il a été créé grâce
             au langage HTML et CSS.
           </p>

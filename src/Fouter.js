@@ -19,7 +19,7 @@ function Fouter() {
           flex: 1,
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "16px",
+          fontSize: "14px",
           fontWeight: "lighter",
         }}
       >
