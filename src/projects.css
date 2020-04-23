@@ -10,7 +10,7 @@
   margin: 10px 10px 10px 10px;
 }
 .title_project {
-  font-size: 37px;
+  font-size: 23px;
   font-weight: lighter;
   color: #636363;
 }
@@ -19,4 +19,17 @@
   font-weight: lighter;
   color: #636363;
   padding-bottom: 30px;
+}
+.link_project {
+  text-decoration: none;
+  border: solid 1px #dcdcdc;
+  padding: 14px;
+  border-radius: 5px;
+  color: #636363;
+}
+
+.link_project:hover {
+  background-color: grey;
+  text-decoration: none;
+  color: white;
 }

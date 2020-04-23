@@ -18,12 +18,7 @@ export default class Projects extends Component {
             au langage HTML et CSS.
           </p>
           <a
-            style={{
-              textDecoration: "none",
-              border: "solid 1px #DCDCDC",
-              padding: 14,
-              borderRadius: 5,
-            }}
+            className="link_project"
             href="https://ghaniker2019.github.io/trainline"
             target="_blank"
             rel="noopener noreferrer"
@@ -49,12 +44,7 @@ export default class Projects extends Component {
             au langage HTML et CSS.
           </p>
           <a
-            style={{
-              textDecoration: "none",
-              border: "solid 1px #DCDCDC",
-              padding: 14,
-              borderRadius: 5,
-            }}
+            className="link_project"
             href="https://ghaniker2019.github.io/allocine/"
             target="_blank"
             rel="noopener noreferrer"
