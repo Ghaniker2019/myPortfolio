@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
-import "./selections.css";
+import "./sections.css";
 import Contact from "./Contact";
 
 class Sections extends React.Component {
@@ -8,16 +8,7 @@ class Sections extends React.Component {
     return (
       <div className="main_container">
         <div className="container_sections">
-          <nav
-            className="navBar"
-            style={{
-              height: "60px",
-              backgroundColor: "#F7F7F7",
-              border: "1px solid transparent",
-              borderTopLeftRadius: "15px",
-              borderTopRightRadius: "15px",
-            }}
-          >
+          <nav className="navBar">
             <ul className="liste">
               <li className="item">
                 <a className="link" href="#section01">
