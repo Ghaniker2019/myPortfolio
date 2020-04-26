@@ -3,3 +3,10 @@
   color: gray !important;
   margin: 80px 20% 10px 20%;
 }
+
+@media (max-width: 720px) {
+  .btn-light,
+  .btn-light {
+    margin: 80px 70% 10px 0%;
+  }
+}

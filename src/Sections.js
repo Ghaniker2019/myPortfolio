@@ -35,7 +35,13 @@ class Sections extends React.Component {
           <section id="section01">
             <article className="article">
               <h1 className="titles">Qui suis - je</h1>
-              <p style={{ margin: "5px 25px 5px 25px" }}>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontWeight: "lighter",
+                  margin: "5px 25px 5px 25px",
+                }}
+              >
                 Je m 'appelle Kerkoub Abdelghani. Je suis développeur Web &
                 Mobile depuis 1 ans déjà.J 'ai été formé au Reacteur (Paris) où
                 j' ai pu apprendre à réaliser des sites Internet et applications
@@ -49,16 +55,20 @@ class Sections extends React.Component {
           <section id="section02">
             <article className="article">
               <h1 className="titles">Mes derniers projects</h1>
-              <div>
-                <p> Voici quelques projets Web réalisés ces derniers temps. </p>
-              </div>
+
+              <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+                Voici quelques projets Web réalisés ces derniers temps.
+              </p>
+
               <Projects />
             </article>
           </section>
           <section id="section03">
             <article className="article">
               <h1 className="titles">Mes compétences techniques</h1>
-              <p>Voici l'étendue de mes compétences en programmation.</p>
+              <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+                Voici l'étendue de mes compétences en programmation.
+              </p>
               <img
                 className="image"
                 src={require("./img/Compétences.png")}
@@ -67,7 +77,14 @@ class Sections extends React.Component {
 
               <div className="containter_grid">
                 <div>
-                  <p style={{ padding: "5px" }}>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      fontWeight: "lighter",
+                      padding: "5px",
+                      marginRight: "20px",
+                    }}
+                  >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Autem harum, et voluptatum doloribus quo at atque, sint,
                     omnis voluptatem consectetur suscipit accusamus sapiente?
@@ -75,7 +92,14 @@ class Sections extends React.Component {
                   </p>
                 </div>
                 <div>
-                  <p style={{ padding: "5px" }}>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      fontWeight: "lighter",
+                      padding: "5px",
+                      marginRight: "20px",
+                    }}
+                  >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Autem harum, et voluptatum doloribus quo at atque, sint,
                     omnis voluptatem consectetur suscipit accusamus sapiente?

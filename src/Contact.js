@@ -19,7 +19,9 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <p>Vous souhaitez me contacter ? C'est parti !</p>
+        <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+          Vous souhaitez me contacter ? C'est parti !
+        </p>
         <form onSubmit={this.submit} style={{ margin: "80px 30% 100px 30%" }}>
           <div class="form-group">
             <input
@@ -48,7 +50,9 @@ export default class Contact extends Component {
             placeholder="Tapez votre message ici..."
           ></textarea>
           <button
-            style={{ padding: "15px 30px 15px 30px" }}
+            style={{
+              padding: "15px 30px 15px 30px",
+            }}
             type="button"
             class="btn-light btn"
           >
