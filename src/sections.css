@@ -110,7 +110,6 @@ p {
   font-weight: 60;
   padding: 5px;
   column-count: 2;
-  margin: 0px 5% 0px 5%;
 }
 
 @media (max-width: 720px) {
