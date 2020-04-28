@@ -35,14 +35,7 @@ class Sections extends React.Component {
           <section id="section01">
             <article className="article">
               <h1 className="titles">Qui suis - je</h1>
-              <p
-                style={{
-                  fontSize: "18px",
-                  fontWeight: "lighter",
-                  margin: "5px 35px 5px 35px",
-                  textAlign: "justify",
-                }}
-              >
+              <p>
                 Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &
                 Mobile depuis 1ans. J'ai été formé au Reacteur (Paris) où j'ai
                 pu apprendre à réaliser des sites Internet et applications
@@ -60,7 +53,15 @@ class Sections extends React.Component {
             <article className="article">
               <h1 className="titles">Mes derniers projects</h1>
 
-              <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+              <p
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "23px",
+                  fontWeight: "lighter",
+                }}
+              >
                 Voici quelques projets Web réalisés ces derniers temps.
               </p>
 
@@ -70,7 +71,15 @@ class Sections extends React.Component {
           <section id="section03">
             <article className="article">
               <h1 className="titles">Mes compétences techniques</h1>
-              <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+              <p
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "23px",
+                  fontWeight: "lighter",
+                }}
+              >
                 Voici l'étendue de mes compétences en programmation.
               </p>
               <img

@@ -25,7 +25,7 @@ export default class Contact extends Component {
         <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
           Vous souhaitez me contacter ? C'est parti !
         </p>
-        <form onSubmit={this.submit} style={{ margin: "80px 30% 15px 30%" }}>
+        <form className="form" onSubmit={this.submit}>
           <div class="form-group">
             <input
               className="form"

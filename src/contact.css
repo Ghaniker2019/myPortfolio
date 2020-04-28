@@ -3,17 +3,17 @@
   color: gray !important;
   margin: 80px 20% 10px 20%;
 }
-
-@media (max-width: 720px) {
-  .btn-light,
-  .btn-light {
-    margin: 80px 70% 10px 0%;
+.form {
+  margin: 80px 25% 15px 25%;
+}
+@media (max-width: 620px) {
+  .form {
+    margin: 80px 5% 15px 5%;
   }
 }
 .message_succes {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
   width: 100%;
 }
