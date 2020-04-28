@@ -25,13 +25,7 @@ export default class Projects extends Component {
         </div>
         <div className="project">
           <img
-            style={{
-              height: 300,
-              width: 600,
-              maxWidth: "100%",
-              position: "relative",
-              margin: "10px 10px 10px 10px",
-            }}
+            className="img_project"
             src={require("./img/allocine.png")}
             alt="allocine"
           />
