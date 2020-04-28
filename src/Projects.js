@@ -13,10 +13,7 @@ export default class Projects extends Component {
           />
 
           <h3 className="title_project"> Trainline </h3>
-          <p>
-            Ceci est un site réalisé pour la société lambda.Il a été créé grâce
-            au langage HTML et CSS.
-          </p>
+
           <a
             className="link_project"
             href="https://ghaniker2019.github.io/trainline"
@@ -39,10 +36,7 @@ export default class Projects extends Component {
             alt="allocine"
           />
           <h3 className="title_project"> Allocine </h3>
-          <p>
-            Ceci est un site réalisé pour la société lambda.Il a été créé grâce
-            au langage HTML et CSS.
-          </p>
+
           <a
             className="link_project"
             href="https://ghaniker2019.github.io/allocine/"
