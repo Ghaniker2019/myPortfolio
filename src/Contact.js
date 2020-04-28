@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import "./fonts/SourceSansPro-Regular.ttf";
+
 export default class Contact extends Component {
   state = {
     name: "",
