@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.eccc08dc.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.ad967491.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.ad967491.chunk.js.map",
-    "runtime-main.js": "/myPortfolio/static/js/runtime-main.72545305.js",
-    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.72545305.js.map",
+    "main.js": "/myPortfolio/static/js/main.2a46f1ef.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.2a46f1ef.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.2d45d5ea.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.2d45d5ea.js.map",
     "static/css/2.47e06e2e.chunk.css": "/myPortfolio/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.2d54ba82.chunk.js": "/myPortfolio/static/js/2.2d54ba82.chunk.js",
-    "static/js/2.2d54ba82.chunk.js.map": "/myPortfolio/static/js/2.2d54ba82.chunk.js.map",
+    "static/js/2.57977076.chunk.js": "/myPortfolio/static/js/2.57977076.chunk.js",
+    "static/js/2.57977076.chunk.js.map": "/myPortfolio/static/js/2.57977076.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.90be40c0f02119c5883c68ea7f22a93d.js": "/myPortfolio/precache-manifest.90be40c0f02119c5883c68ea7f22a93d.js",
+    "precache-manifest.637ce04534935c3453f9293b63e47274.js": "/myPortfolio/precache-manifest.637ce04534935c3453f9293b63e47274.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/myPortfolio/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.eccc08dc.chunk.css.map": "/myPortfolio/static/css/main.eccc08dc.chunk.css.map",
-    "static/js/2.2d54ba82.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.2d54ba82.chunk.js.LICENSE.txt",
+    "static/js/2.57977076.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.57977076.chunk.js.LICENSE.txt",
     "static/media/Compétences.png": "/myPortfolio/static/media/Compétences.13a5db43.png",
     "static/media/PhotoGhani.jpg": "/myPortfolio/static/media/PhotoGhani.561ebe82.jpg",
     "static/media/allocine.png": "/myPortfolio/static/media/allocine.cadcb13e.png",
     "static/media/myTrainline.png": "/myPortfolio/static/media/myTrainline.63c23bb3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.72545305.js",
+    "static/js/runtime-main.2d45d5ea.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.2d54ba82.chunk.js",
+    "static/js/2.57977076.chunk.js",
     "static/css/main.eccc08dc.chunk.css",
-    "static/js/main.ad967491.chunk.js"
+    "static/js/main.2a46f1ef.chunk.js"
   ]
 }
