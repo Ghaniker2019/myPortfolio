@@ -39,16 +39,20 @@ class Sections extends React.Component {
                 style={{
                   fontSize: "18px",
                   fontWeight: "lighter",
-                  margin: "5px 25px 5px 25px",
+                  margin: "5px 35px 5px 35px",
+                  textAlign: "justify",
                 }}
               >
-                Je m 'appelle Kerkoub Abdelghani. Je suis développeur Web &
-                Mobile depuis 1 ans déjà.J 'ai été formé au Reacteur (Paris) où
-                j' ai pu apprendre à réaliser des sites Internet et applications
-                Mobile.Mon expérience dans le développement m 'a permis de
-                monter rapidement en compétences, sur plusieurs technologies
-                prisées des startups ou grands groupes.Vous trouverez sur ce
-                blog, mes derniers projets.
+                Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &
+                Mobile depuis 1ans. J'ai été formé au Reacteur (Paris) où j'ai
+                pu apprendre à réaliser des sites Internet et applications
+                Mobile. Pour moi être développeur web c'est bien plus que
+                programmer c'est avant tout savoir s'adapter aux spécificités de
+                chaque projet et proposer les meilleures solutions. Mon envie
+                d'apprendre et ma curiosité me permettent de monter rapidement
+                en compétences, sur plusieurs technologies prisées des startups
+                ou grands groupes. Vous trouverez sur ce blog, mes derniers
+                projets.
               </p>
             </article>
           </section>
@@ -75,37 +79,28 @@ class Sections extends React.Component {
                 alt="Compétences"
               />
 
-              <div className="containter_grid">
-                <div>
-                  <p
-                    style={{
-                      fontSize: "18px",
-                      fontWeight: "lighter",
-                      padding: "5px",
-                      marginRight: "20px",
-                    }}
-                  >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem harum, et voluptatum doloribus quo at atque, sint,
-                    omnis voluptatem consectetur suscipit accusamus sapiente?
-                    Molestias excepturi explicabo esse harum natus velit.
-                  </p>
-                </div>
-                <div>
-                  <p
-                    style={{
-                      fontSize: "18px",
-                      fontWeight: "lighter",
-                      padding: "5px",
-                      marginRight: "20px",
-                    }}
-                  >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem harum, et voluptatum doloribus quo at atque, sint,
-                    omnis voluptatem consectetur suscipit accusamus sapiente?
-                    Molestias excepturi explicabo esse harum natus velit.
-                  </p>
-                </div>
+              <div>
+                <p className="containter_grid">
+                  Hyper-Text Markup Language (HTML), JavaScript (JS), React,
+                  React Native, Gatsby, Cascading Style Sheets (CSS), Bootstrap,
+                  et Styled Components pour la partie front-end. Express,
+                  Node.js et MongoDB pour la partie back-end.
+                  <br />
+                  Débogage, refactoring et optimisation du code existant. La
+                  correction des bugs dans les projets existants. Tester de
+                  nouvelles fonctionnalités pour s’assurer qu’elles exécutent
+                  correctement dans tous les cas. Test des performances d’une
+                  application Web ou d’un site Web créés. Participation à la
+                  création de la conception UX (logique et transitions) et UI
+                  (conception visuelle) en étroite collaboration avec les
+                  concepteurs aux étapes pré-développement et a trouver les
+                  meilleurs outils, technologies, langages et framework pour le
+                  projet. La planification et le prototypage de nouvelles
+                  applications ou de nouveaux sites Web. Rester à jour avec les
+                  nouvelles tendances et les progrès dans le développement web.
+                  La collecte des exigences et des souhaits des clients et des
+                  utilisateurs.
+                </p>
               </div>
             </article>
           </section>

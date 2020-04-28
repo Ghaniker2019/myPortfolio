@@ -10,3 +10,10 @@
     margin: 80px 70% 10px 0%;
   }
 }
+.message_succes {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+}
