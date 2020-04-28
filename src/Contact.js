@@ -23,7 +23,8 @@ export default class Contact extends Component {
     return (
       <div>
         <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
-          Vous souhaitez me contacter ? C'est parti !
+          Vous souhaitez me contacter ? <br />
+          C'est parti !
         </p>
         <form className="form" onSubmit={this.submit}>
           <div class="form-group">
