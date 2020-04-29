@@ -12,7 +12,7 @@
   .container_sections {
     border: 1px solid transparent;
     border-radius: 15px;
-    margin: 0px 1% 0px 1%;
+    margin: 0px 2% 0px 2%;
     background-color: #ffffff;
   }
 }
@@ -80,18 +80,16 @@
 }
 
 .titles + p {
-  font-size: 18px;
   font-weight: lighter;
-  margin: 5px 35px 5px 35px;
-  text-align: justify;
+  font-size: 20px;
+  margin: 0 2% 0 2%;
 }
 
 @media (max-width: 620px) {
   .titles + p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
-    margin: 5px 5px 5px 5px;
-    text-align: justify;
+    margin: 0;
   }
 }
 p {
@@ -104,7 +102,7 @@ p {
   margin: 60px 10px 60px 10px;
   border-radius: 10px;
 }
-.containter_grid {
+.competences_grid {
   text-align: justify;
   font-size: 18px;
   font-weight: 60;
@@ -114,8 +112,9 @@ p {
 }
 
 @media (max-width: 720px) {
-  .containter_grid {
+  .competences_grid {
     column-count: 1;
+    font-size: 16px;
     margin: 0;
   }
 }

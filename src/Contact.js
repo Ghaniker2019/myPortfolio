@@ -22,7 +22,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <p style={{ fontSize: "23px", fontWeight: "lighter" }}>
+        <p style={{ fontSize: "20px", fontWeight: "lighter" }}>
           Vous souhaitez me contacter ? <br />
           C'est parti !
         </p>

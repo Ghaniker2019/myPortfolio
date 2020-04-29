@@ -35,7 +35,7 @@ class Sections extends React.Component {
           <section id="section01">
             <article className="article">
               <h1 className="titles">Qui suis - je</h1>
-              <p>
+              <p style={{ textAlign: "justify" }}>
                 Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &
                 Mobile depuis 1ans. J'ai été formé au Reacteur (Paris) où j'ai
                 pu apprendre à réaliser des sites Internet et applications
@@ -53,17 +53,7 @@ class Sections extends React.Component {
             <article className="article">
               <h1 className="titles">Mes derniers projects</h1>
 
-              <p
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "23px",
-                  fontWeight: "lighter",
-                }}
-              >
-                Voici quelques projets Web réalisés ces derniers temps.
-              </p>
+              <p>Voici quelques projets Web réalisés ces derniers temps.</p>
 
               <Projects />
             </article>
@@ -71,17 +61,7 @@ class Sections extends React.Component {
           <section id="section03">
             <article className="article">
               <h1 className="titles">Mes compétences techniques</h1>
-              <p
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "23px",
-                  fontWeight: "lighter",
-                }}
-              >
-                Voici l'étendue de mes compétences en programmation.
-              </p>
+              <p>Voici l'étendue de mes compétences en programmation.</p>
               <img
                 className="image"
                 src={require("./img/Compétences.png")}
@@ -89,7 +69,7 @@ class Sections extends React.Component {
               />
 
               <div>
-                <p className="containter_grid">
+                <p className="competences_grid">
                   Hyper-Text Markup Language (HTML), JavaScript (JS), React,
                   React Native, Gatsby, Cascading Style Sheets (CSS), Bootstrap,
                   et Styled Components pour la partie front-end. Express,
