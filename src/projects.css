@@ -3,9 +3,8 @@
   margin-top: 80px;
 }
 .img_project {
-  height: 250px;
-  width: 600px;
-  max-width: 100%;
+  height: auto;
+  width: 100%;
   position: relative;
   margin: 10px 5px 10px 5px;
   border-radius: 10px;

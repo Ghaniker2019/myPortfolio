@@ -37,7 +37,7 @@ class Sections extends React.Component {
               <h1 className="titles">Qui suis - je</h1>
               <p style={{ textAlign: "justify" }}>
                 Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &
-                Mobile depuis 1ans. J'ai été formé au Reacteur (Paris) où j'ai
+                Mobile depuis 1 an. J'ai été formé au Reacteur (Paris) où j'ai
                 pu apprendre à réaliser des sites Internet et applications
                 Mobile. Pour moi être développeur web c'est bien plus que
                 programmer c'est avant tout savoir s'adapter aux spécificités de

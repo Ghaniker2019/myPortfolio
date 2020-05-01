@@ -98,9 +98,16 @@ p {
 .image {
   height: 180px;
   width: 90%;
-  position: relative;
   margin: 60px 10px 60px 10px;
   border-radius: 10px;
+}
+@media (max-width: 720px) {
+  .image {
+    height: 150px;
+    width: 100%;
+    margin: 60px 0px 60px 0px;
+    border-radius: 10px;
+  }
 }
 .competences_grid {
   text-align: justify;

@@ -3,6 +3,8 @@ import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
+const sgMail = require("@sendgrid/mail");
+
 export default class Contact extends Component {
   state = {
     name: "",
@@ -10,14 +12,35 @@ export default class Contact extends Component {
     message: "",
     isSent: false,
   };
-
+  componentDidMount() {
+    sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+  }
   change = (e) => {
     this.setState({
       [e.target.id]: e.target.value,
     });
   };
   submit = (e) => {
+    e.preventDefault();
     console.log("<============onSubmit");
+    console.log(process.env.REACT_APP_SENDGRID_API_KEY);
+    if (this.state.email && this.state.name && this.state.message) {
+      // send email to gmail
+
+      const MSG = {
+        to: "kerkoub.abdelghani@gmail.com",
+        from: "anismzane@gmail.com",
+        subject: "New Lead",
+        text: " ",
+        html:
+          '<div style="text-align:center;font-size:22px">' +
+          "<h2>You have received a new lead!</h2>" +
+          "</div>",
+      };
+      this.setState({ isSent: true }, () => sgMail.send(MSG));
+    } else {
+      alert("vous devez remplir tout les champs");
+    }
   };
   render() {
     return (
@@ -26,7 +49,7 @@ export default class Contact extends Component {
           Vous souhaitez me contacter ? <br />
           C'est parti !
         </p>
-        <form className="form" onSubmit={this.submit}>
+        <form className="form">
           <div class="form-group">
             <input
               className="form"
@@ -60,18 +83,7 @@ export default class Contact extends Component {
             rows="3"
             placeholder="Tapez votre message ici..."
           ></textarea>
-          <button
-            onClick={() =>
-              this.state.email && this.state.name && this.state.message
-                ? this.setState({ isSent: true })
-                : alert("vous devez remplir tout les champs")
-            }
-            style={{
-              padding: "15px 30px 15px 30px",
-            }}
-            type="button"
-            class="btn-light btn"
-          >
+          <button onClick={this.submit} type="button" class="btn-purpel btn">
             Envoyer le message
           </button>
         </form>
