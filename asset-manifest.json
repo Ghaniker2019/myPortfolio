@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.47abaf71.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.386082cc.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.386082cc.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.42c5d0e5.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.4e6dd427.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.4e6dd427.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.866b783a.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.866b783a.js.map",
     "static/css/2.47e06e2e.chunk.css": "/myPortfolio/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.258447dd.chunk.js": "/myPortfolio/static/js/2.258447dd.chunk.js",
-    "static/js/2.258447dd.chunk.js.map": "/myPortfolio/static/js/2.258447dd.chunk.js.map",
+    "static/js/2.7321b47e.chunk.js": "/myPortfolio/static/js/2.7321b47e.chunk.js",
+    "static/js/2.7321b47e.chunk.js.map": "/myPortfolio/static/js/2.7321b47e.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.e709253a95c4a239f99e0992b196db05.js": "/myPortfolio/precache-manifest.e709253a95c4a239f99e0992b196db05.js",
+    "precache-manifest.ad8dae9ced7f1f496b65b919592080e2.js": "/myPortfolio/precache-manifest.ad8dae9ced7f1f496b65b919592080e2.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/myPortfolio/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.47abaf71.chunk.css.map": "/myPortfolio/static/css/main.47abaf71.chunk.css.map",
-    "static/js/2.258447dd.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.258447dd.chunk.js.LICENSE.txt",
+    "static/css/main.42c5d0e5.chunk.css.map": "/myPortfolio/static/css/main.42c5d0e5.chunk.css.map",
+    "static/js/2.7321b47e.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.7321b47e.chunk.js.LICENSE.txt",
     "static/media/Compétences.png": "/myPortfolio/static/media/Compétences.13a5db43.png",
     "static/media/OpenSansCondensed-Light.ttf": "/myPortfolio/static/media/OpenSansCondensed-Light.3589bddb.ttf",
     "static/media/PhotoGhani.jpg": "/myPortfolio/static/media/PhotoGhani.561ebe82.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.866b783a.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.258447dd.chunk.js",
-    "static/css/main.47abaf71.chunk.css",
-    "static/js/main.386082cc.chunk.js"
+    "static/js/2.7321b47e.chunk.js",
+    "static/css/main.42c5d0e5.chunk.css",
+    "static/js/main.4e6dd427.chunk.js"
   ]
 }
