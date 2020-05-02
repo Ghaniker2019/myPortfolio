@@ -21,7 +21,7 @@
   color: #636363;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: lighter;
   padding: 10px 20px 10px 20px;
 }
 
@@ -112,7 +112,7 @@ p {
 .competences_grid {
   text-align: justify;
   font-size: 18px;
-  font-weight: 60;
+  font-weight: lighter;
   padding: 5px;
   column-count: 2;
   margin: 0px 5% 0px 5%;
