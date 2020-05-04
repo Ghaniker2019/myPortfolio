@@ -1,6 +1,11 @@
 .project {
   margin: 80px 15% 80px 15%;
 }
+@media (max-width: 720px) {
+  .project {
+    margin: 80px 0px 80px 0px;
+  }
+}
 .img_project {
   height: auto;
   width: 100%;
