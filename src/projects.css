@@ -9,6 +9,15 @@
   margin: 10px 5px 10px 5px;
   border-radius: 10px;
 }
+@media (max-width: 720px) {
+  .img_project {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+  }
+}
 .title_project {
   font-size: 23px;
   font-weight: lighter;
