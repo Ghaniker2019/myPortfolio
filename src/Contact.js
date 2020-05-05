@@ -11,10 +11,23 @@ export default class Contact extends Component {
     email: "",
     message: "",
     isSent: false,
+    x: 0,
+    y: 0,
   };
+
   componentDidMount() {
     sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
   }
+
+  setPropertyXY = (e) => {
+    const el = e.target;
+    this.setState({
+      x: (e.clientX - el.offsetLeft) / el.offsetWidth,
+      y: (e.clientY - el.offsetTop) / el.offsetHeight,
+    });
+    document.documentElement.style.setProperty("--wavecoord-x", this.state.x) &&
+      document.documentElement.style.setProperty("--wavecoord-y", this.state.y);
+  };
   change = (e) => {
     this.setState({
       [e.target.id]: e.target.value,
@@ -22,22 +35,11 @@ export default class Contact extends Component {
   };
   submit = (e) => {
     e.preventDefault();
-    console.log("<============onSubmit");
-    console.log(process.env.REACT_APP_SENDGRID_API_KEY);
+
     if (this.state.email && this.state.name && this.state.message) {
       // send email to gmail
 
-      const MSG = {
-        to: "kerkoub.abdelghani@gmail.com",
-        from: "anismzane@gmail.com",
-        subject: "New Lead",
-        text: " ",
-        html:
-          '<div style="text-align:center;font-size:22px">' +
-          "<h2>You have received a new lead!</h2>" +
-          "</div>",
-      };
-      this.setState({ isSent: true }, () => sgMail.send(MSG));
+      this.setState({ isSent: true });
     } else {
       alert("vous devez remplir tout les champs");
     }
