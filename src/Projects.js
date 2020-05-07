@@ -8,6 +8,24 @@ export default class Projects extends Component {
         <div className="project">
           <img
             className="img_project"
+            src={require("./img/mon-bebe.png")}
+            alt="allocine"
+          />
+
+          <h3 className="title_project"> Mon Bébé </h3>
+
+          <a
+            className="link_project"
+            href="https://romantic-banach-bf4641.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Voir le site
+          </a>
+        </div>
+        <div className="project">
+          <img
+            className="img_project"
             src={require("./img/myTrainline.png")}
             alt="allocine"
           />
