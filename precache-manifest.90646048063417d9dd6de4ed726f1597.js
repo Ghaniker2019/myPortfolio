@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ed2387e16a98576fbcad038bd84e13b",
+    "revision": "e805cc29314315885ae7574d266ae1b7",
     "url": "/myPortfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "30e2cd1d9e8845ac808c",
+    "revision": "53a94fdbc4b51533cc3c",
     "url": "/myPortfolio/static/css/main.34cc2549.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/js/2.0bf1b7ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30e2cd1d9e8845ac808c",
-    "url": "/myPortfolio/static/js/main.5d7336d0.chunk.js"
+    "revision": "53a94fdbc4b51533cc3c",
+    "url": "/myPortfolio/static/js/main.5daec3a8.chunk.js"
   },
   {
     "revision": "5ebb7dfb6390de1b1c37",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/media/PhotoGhani.561ebe82.jpg"
   },
   {
-    "revision": "cadcb13e36e380a9be856aa3059cb2c1",
-    "url": "/myPortfolio/static/media/allocine.cadcb13e.png"
+    "revision": "57baba68a8bfb38c85e944b3b63d3211",
+    "url": "/myPortfolio/static/media/allocine.57baba68.png"
   },
   {
     "revision": "452497394ec3f545584215da95cdda32",
