@@ -12,11 +12,13 @@ export default class Projects extends Component {
             alt="allocine"
           />
 
-          <h3 className="title_project"> Mon Bébé </h3>
+
+          <h3 className="title_project"> My E-Commerce </h3>
+
 
           <a
             className="link_project"
-            href="https://romantic-banach-bf4641.netlify.app/"
+            href="https://www.kerkoub.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
