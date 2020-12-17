@@ -8,7 +8,25 @@ export default class Projects extends Component {
         <div className="project">
           <img
             className="img_project"
-            src={require("./img/mon-bebe.png")}
+            src={require("./img/LiveforGood.png")}
+            alt="allocine"
+          />
+
+          <h3 className="title_project"> Live for Good </h3>
+
+          <a
+            className="link_project"
+            href="https://live-for-good.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Voir le site
+          </a>
+        </div>
+        <div className="project">
+          <img
+            className="img_project"
+            src={require("./img/MyE-Commerce.png")}
             alt="allocine"
           />
 
