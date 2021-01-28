@@ -2,6 +2,8 @@ import React from "react";
 import Projects from "./Projects";
 import "./sections.css";
 import Contact from "./Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 class Sections extends React.Component {
   render() {
@@ -90,6 +92,16 @@ class Sections extends React.Component {
                   La collecte des exigences et des souhaits des clients et des
                   utilisateurs.
                 </p>
+                <a
+                  class="btn-purpel btn"
+                  href="https://cvdesignr.com/p/5d6e6800d9cec"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CV     <FontAwesomeIcon
+                    icon={faEye}
+                  ></FontAwesomeIcon>
+                </a>
               </div>
             </article>
           </section>
