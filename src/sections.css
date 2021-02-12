@@ -55,10 +55,19 @@
   background-color: #ffffff;
   text-decoration: none;
 }
+@media (max-width: 620px) {
+  .article {
+  text-align: center;
+  margin: 50px;
+}
+}
+@media (min-width: 620px) {
 .article {
   text-align: center;
   margin: 200px;
 }
+}
+
 .titles {
   padding-bottom: 10px;
   font-size: 32px;
