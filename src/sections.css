@@ -18,11 +18,13 @@
 }
 
 .link {
+  cursor: pointer;
   color: #636363;
   text-decoration: none;
   font-size: 18px;
   font-weight: lighter;
   padding: 10px 20px 10px 20px;
+
 }
 
 .item {
