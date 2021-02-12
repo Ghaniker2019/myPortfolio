@@ -50,6 +50,16 @@ class Sections extends React.Component {
                 ou grands groupes. Vous trouverez sur ce blog, mes derniers
                 projets.
               </p>
+              <a
+                class="btn-purpel btn"
+                href="https://cvdesignr.com/p/5d6e6800d9cec"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mon CV <FontAwesomeIcon style={{ marginLeft: "4px", }}
+                  icon={faEye}
+                ></FontAwesomeIcon>
+              </a>
             </article>
           </section>
           <section id="section02">
@@ -93,16 +103,7 @@ class Sections extends React.Component {
                   La collecte des exigences et des souhaits des clients et des
                   utilisateurs.
                 </p>
-                <a
-                  class="btn-purpel btn"
-                  href="https://cvdesignr.com/p/5d6e6800d9cec"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Mon CV <FontAwesomeIcon style={{ marginLeft: "4px", }}
-                    icon={faEye}
-                  ></FontAwesomeIcon>
-                </a>
+
               </div>
             </article>
           </section>
