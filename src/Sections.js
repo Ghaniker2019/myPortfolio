@@ -99,7 +99,7 @@ class Sections extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Voir CV <FontAwesomeIcon style={{ marginLeft: "4px", }}
+                  Mon CV <FontAwesomeIcon style={{ marginLeft: "4px", }}
                     icon={faEye}
                   ></FontAwesomeIcon>
                 </a>
