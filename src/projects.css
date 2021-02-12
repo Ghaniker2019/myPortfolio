@@ -30,14 +30,14 @@
 
 .link_project {
   text-decoration: none;
-  border: solid 1px #5c48d3;
+  border: solid 1px #3f76d4;
   padding: 12px;
   border-radius: 5px;
   color: #636363;
 }
 
 .link_project:hover {
-  background-color: #5c48d3;
+  background-color: #3f76d4;
   text-decoration: none;
   color: white;
 }

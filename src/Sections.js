@@ -4,6 +4,7 @@ import "./sections.css";
 import Contact from "./Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-scroll'
 
 class Sections extends React.Component {
   render() {
@@ -13,24 +14,24 @@ class Sections extends React.Component {
           <nav className="navBar">
             <ul className="liste">
               <li className="item">
-                <a className="link" href="#section01">
+                <Link className="link" to="section01" smooth={true} duration={1000}>
                   Qui suis - je ?
-                </a>
+                </Link>
               </li>
               <li className="item">
-                <a className="link" href="#section02">
+                <Link className="link" to="section02" smooth={true} duration={1200}>
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="item">
-                <a className="link" href="#section03">
+                <Link className="link" to="section03" smooth={true} duration={1500}>
                   Compétences
-                </a>
+                </Link>
               </li>
               <li className="item">
-                <a className="link" href="#section04">
+                <Link className="link" to="section04" smooth={true} duration={1800}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -98,7 +99,7 @@ class Sections extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  CV     <FontAwesomeIcon
+                  Voir CV <FontAwesomeIcon style={{ marginLeft: "4px", }}
                     icon={faEye}
                   ></FontAwesomeIcon>
                 </a>

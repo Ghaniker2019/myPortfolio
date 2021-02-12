@@ -2,7 +2,7 @@
   flex-shrink: 0;
   border: none;
   outline: none;
-  background-color: #5c48d3;
+  background-color: #3f76d4;
   cursor: pointer;
   font-size: 20px;
   color: #f1f1f1;
@@ -15,7 +15,7 @@
 .btn.btn-purpel::before {
   content: "";
   position: absolute;
-  background-color: #5c48d3;
+  background-color: #3f76d4;
   width: 0px;
   height: 0px;
   border-radius: 50%;
@@ -32,9 +32,9 @@
 }
 
 .btn.btn-purpel:hover {
-  color: #5c48d3;
+  color: #3f76d4;
   background: white;
-  border: 1px solid #5c48d3;
+  border: 1px solid #3f76d4;
 }
 
 .form {

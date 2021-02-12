@@ -1,5 +1,5 @@
 .main_container {
-  background-color: #5c48d3;
+  background: linear-gradient(  #3f76d4,#9ec1fa, #9ec1fa,#3f76d4 ) ;
 }
 .container_sections {
   border: 1px solid transparent;
@@ -75,7 +75,7 @@
   transform: translateX(-50%);
   width: 10%;
   padding-top: 20px;
-  border-bottom: solid 2px #5c48d3;
+  border-bottom: solid 2px #3f76d4;
   margin-bottom: 20px;
 }
 

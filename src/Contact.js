@@ -91,13 +91,13 @@ export default class Contact extends Component {
         </form>
         <div className="message_succes">
           {this.state.isSent && (
-            <p style={{ color: "#5C48D3" }}>
+            <p style={{ color: "#3f76d4" }}>
               <FontAwesomeIcon
                 style={{
                   marginRight: 15,
                 }}
                 icon={faPaperPlane}
-                color="#5C48D3"
+                color="#3f76d4"
               ></FontAwesomeIcon>
               Merci beaucoup ! À très vite !
             </p>

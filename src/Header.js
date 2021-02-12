@@ -13,7 +13,7 @@ function Header() {
         />
 
         <h1 className="title">Mon Portfolio</h1>
-        <p>Voici mon travail en tant que développeur Web & Mobile.</p>
+        <h2>Développeur Front-End</h2>
       </div>
     </div>
   );
