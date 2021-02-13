@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import axios from "axios"
 
 const sgMail = require("@sendgrid/mail");
 
@@ -33,16 +34,50 @@ export default class Contact extends Component {
       [e.target.id]: e.target.value,
     });
   };
-  submit = (e) => {
+  // submit = (e) => {
+  //   e.preventDefault();
+
+  //   if (this.state.email && this.state.name && this.state.message) {
+  //     // send email to gmail
+
+  //     this.setState({ isSent: true });
+  //   } else {
+  //     alert("vous devez remplir tout les champs");
+  //   }
+  // };
+  handleSubmit = (e) => {
     e.preventDefault();
 
-    if (this.state.email && this.state.name && this.state.message) {
-      // send email to gmail
 
-      this.setState({ isSent: true });
-    } else {
-      alert("vous devez remplir tout les champs");
-    }
+    const data = new FormData();
+    data.append("Name", this.state.name);
+    data.append("Emaile", this.state.email);
+    data.append("Message", this.state.message);
+    // data.append("campaignsData", JSON.stringify(new Array (globalState.campaignsData))); 
+
+
+
+    axios({
+      method: "post",
+      // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
+      url: "https://hooks.zapier.com/hooks/catch/6855636/op8h335/",
+      data: data,
+      header: {
+        Accept: "application/json",
+        "Content-Type": "multipart/form-data;charset=utf-32"
+      },
+      // receive two    parameter endpoint url ,form data
+    })
+      .then((res) => {
+        // then print response status
+        console.log(res.statusText);
+
+
+
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   };
   render() {
     return (
@@ -85,7 +120,7 @@ export default class Contact extends Component {
             rows="3"
             placeholder="Tapez votre message ici..."
           ></textarea>
-          <button onClick={this.submit} type="button" class="btn-purpel btn">
+          <button onClick={this.handleSubmit} type="button" class="btn-purpel btn">
             Envoyer le message
           </button>
         </form>
