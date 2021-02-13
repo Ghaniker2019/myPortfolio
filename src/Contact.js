@@ -54,7 +54,13 @@ export default class Contact extends Component {
     data.append("Emaile", this.state.email);
     data.append("Message", this.state.message);
     // data.append("campaignsData", JSON.stringify(new Array (globalState.campaignsData))); 
+    if (this.state.email && this.state.name && this.state.message) {
+      // send email to gmail
 
+      this.setState({ isSent: true });
+    } else {
+      alert("vous devez remplir tout les champs");
+    }
 
 
     axios({
@@ -109,6 +115,7 @@ export default class Contact extends Component {
               class="form-control"
               id="email"
               placeholder="Votre email"
+
             />
           </div>
           <textarea
