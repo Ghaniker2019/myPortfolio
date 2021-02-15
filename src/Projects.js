@@ -63,6 +63,12 @@ export default class Projects extends Component {
           </a>
         </Grid>
         <Grid item xs={12} md={6}>
+          <img
+            className="img_project"
+            src={require("./img/Allocine.png")}
+            alt="allocine"
+          />
+          <h3 className="title_project"> Allocine </h3>
 
           <a
             className="link_project"
