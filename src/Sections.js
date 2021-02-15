@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-scroll'
-import Grid from '@material-ui/core/Grid';
+
 
 class Sections extends React.Component {
   render() {
