@@ -65,7 +65,7 @@ export default class Projects extends Component {
         <Grid item xs={12} md={6}>
           <img
             className="img_project"
-            src={require("./img/Allocin.png")}
+            src={require("./img/allocine.png")}
             alt="allocine"
           />
           <h3 className="title_project"> Allocine </h3>
