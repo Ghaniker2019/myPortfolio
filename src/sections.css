@@ -57,6 +57,18 @@
   background-color: #ffffff;
   text-decoration: none;
 }
+
+@media (min-width: 620px) {
+.article01{
+  text-align: center;
+  margin: 260px;
+}}
+
+@media (max-width: 620px) {
+  .article01{
+    text-align: center;
+    margin: 60px;
+  }}
 @media (max-width: 620px) {
   .article {
   text-align: center;
@@ -76,7 +88,7 @@
 @media (max-width: 620px) {
 .article_Projects{
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 
 }}
 

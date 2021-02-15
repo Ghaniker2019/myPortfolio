@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-scroll'
+import Grid from '@material-ui/core/Grid';
 
 class Sections extends React.Component {
   render() {
@@ -36,7 +37,7 @@ class Sections extends React.Component {
             </ul>
           </nav>
           <section id="section01">
-            <article className="article">
+            <article className="article01">
               <h1 className="titles">Qui suis - je</h1>
               <p style={{ textAlign: "justify" }}>
                 Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &
