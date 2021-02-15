@@ -1,6 +1,4 @@
-.project {
-  margin: 80px 15% 80px 15%;
-}
+
 
 .img_project {
   height: auto;
@@ -31,7 +29,7 @@
 .link_project {
   text-decoration: none;
   border: solid 1px #3f76d4;
-  padding: 12px;
+  padding: 8px;
   border-radius: 5px;
   color: #636363;
 }

@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import "./projects.css";
+import Grid from '@material-ui/core/Grid';
 
 export default class Projects extends Component {
   render() {
     return (
-      <div>
-        <div className="project">
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={6}>
           <img
             className="img_project"
-            src={require("./img/LiveforGood.png")}
+            src={require("./img/Live-for-Good.png")}
             alt="allocine"
           />
 
@@ -22,16 +23,16 @@ export default class Projects extends Component {
           >
             Voir le site
           </a>
-        </div>
-        <div className="project">
+        </Grid>
+        <Grid item xs={12} md={6}>
           <img
             className="img_project"
-            src={require("./img/MyE-Commerce.png")}
+            src={require("./img/Kerkoub.png")}
             alt="allocine"
           />
 
 
-          <h3 className="title_project"> My E-Commerce </h3>
+          <h3 className="title_project"> E-Commerce </h3>
 
 
           <a
@@ -42,11 +43,11 @@ export default class Projects extends Component {
           >
             Voir le site
           </a>
-        </div>
-        <div className="project">
+        </Grid>
+        <Grid item xs={12} md={6}>
           <img
             className="img_project"
-            src={require("./img/myTrainline.png")}
+            src={require("./img/Trainline.png")}
             alt="allocine"
           />
 
@@ -60,11 +61,11 @@ export default class Projects extends Component {
           >
             Voir le site
           </a>
-        </div>
-        <div className="project">
+        </Grid>
+        <Grid item xs={12} md={6}>
           <img
             className="img_project"
-            src={require("./img/allocine.png")}
+            src={require("./img/Allocine.png")}
             alt="allocine"
           />
           <h3 className="title_project"> Allocine </h3>
@@ -77,8 +78,8 @@ export default class Projects extends Component {
           >
             Voir le site
           </a>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     );
   }
 }
