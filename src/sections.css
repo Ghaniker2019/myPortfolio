@@ -4,7 +4,7 @@
 .container_sections {
   border: 1px solid transparent;
   border-radius: 15px;
-  margin: 0px 10% 0px 10%;
+  margin: 0px 12%;
   background-color: #ffffff;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .item {
-  margin: 5px 3% 0 3%;
+  margin: 5px 3%;
 }
 
 .navBar {
@@ -60,15 +60,25 @@
 @media (max-width: 620px) {
   .article {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
 }
 }
 @media (min-width: 620px) {
 .article {
   text-align: center;
-  margin: 200px;
-}
-}
+  margin: 120px;
+}}
+@media (min-width: 620px) {
+.article_Projects{
+  text-align: center;
+  margin: 80px;
+}}
+@media (max-width: 620px) {
+.article_Projects{
+  text-align: center;
+  margin: 20px;
+
+}}
 
 .titles {
   padding-bottom: 10px;
@@ -126,14 +136,14 @@ p {
   font-weight: lighter;
   padding: 5px;
   column-count: 2;
-  margin: 0px 5% 0px 5%;
+  margin: 0px 5%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1220px) {
   .competences_grid {
     column-count: 1;
     font-size: 16px;
-    margin: 0;
+    margin: 0 3;
   }
 }
 

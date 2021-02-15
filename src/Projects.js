@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 export default class Projects extends Component {
   render() {
     return (
-      <Grid container spacing={2}>
+      <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
           <img
             className="img_project"

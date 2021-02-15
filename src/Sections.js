@@ -63,7 +63,7 @@ class Sections extends React.Component {
             </article>
           </section>
           <section id="section02">
-            <article className="article">
+            <article className="article_Projects">
               <h1 className="titles">Mes derniers projects</h1>
 
               <p>Voici quelques projets Web réalisés ces derniers temps.</p>
