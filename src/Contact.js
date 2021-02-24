@@ -66,7 +66,7 @@ export default class Contact extends Component {
     axios({
       method: "post",
       // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
-      url: "https://hooks.zapier.com/hooks/catch/6855636/op8h335/",
+      url: "https://hooks.zapier.com/hooks/catch/1125328/on6znrg/",
       data: data,
       header: {
         Accept: "application/json",
