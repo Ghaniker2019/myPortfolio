@@ -21,7 +21,7 @@ class Sections extends React.Component {
               </li>
               <li className="item">
                 <Link className="link" to="section02" smooth={true} duration={1200}>
-                  Projects
+                  Projets
                 </Link>
               </li>
               <li className="item">
@@ -65,7 +65,7 @@ class Sections extends React.Component {
           </section>
           <section id="section02">
             <article className="article_Projects">
-              <h1 className="titles">Mes derniers projects</h1>
+              <h1 className="titles">Mes derniers projets</h1>
 
               <p>Voici quelques projets Web réalisés ces derniers temps.</p>
 
