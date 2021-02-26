@@ -45,10 +45,10 @@ class Sections extends React.Component {
                 pu apprendre à réaliser des sites Internet et applications
                 Mobile. Pour moi être développeur web c'est bien plus que
                 programmer c'est avant tout savoir s'adapter aux spécificités de
-                chaque projet et proposer les meilleures solutions. Mon envie
-                d'apprendre et ma curiosité me permettent de monter rapidement
-                en compétences, sur plusieurs technologies prisées des startups
-                ou grands groupes. Vous trouverez sur ce blog, mes derniers
+                chaque projet et proposer les meilleures solutions. Curieux et en veille technologique permanente,
+                mon envie d'apprendre et ma curiosité me permettent de monter rapidement
+                en compétences sur plusieurs technologies prisées des startups
+                ou grands groupes. Vous trouverez sur ce blog mes derniers
                 projets.
               </p>
               <a

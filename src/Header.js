@@ -13,7 +13,7 @@ function Header() {
         />
 
         <h1 className="title">Mon Portfolio</h1>
-        <h2>Développeur Front-End</h2>
+        <h2>Développeur web & mobile</h2>
       </div>
     </div>
   );
