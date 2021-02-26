@@ -17,7 +17,7 @@ export default class Projects extends Component {
 
           <a
             className="link_project"
-            href="https://live-for-good.netlify.app/"
+            href="https://live-for-good.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
