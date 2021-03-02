@@ -8,8 +8,9 @@ function Header() {
       <div className="container">
         <img
           className="img"
-          src={require("./img/PhotoGhani.jpg")}
+          src={require("./img/Ghani-Linkedin-circle.png")}
           alt="ma_photo"
+
         />
 
         <h1 className="title">Mon Portfolio</h1>
