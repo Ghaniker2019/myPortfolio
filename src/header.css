@@ -36,7 +36,7 @@
 .img {
   width: 160px;
   height: 160px;
-  opacity: 0.8;
+  
   -webkit-filter: drop-shadow(5px 5px 5px #3f76d4);
   filter: drop-shadow(5px 5px 5px #3f76d4);
 }
