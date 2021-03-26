@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios"
 
-const sgMail = require("@sendgrid/mail");
 
 export default class Contact extends Component {
   state = {
@@ -12,75 +11,20 @@ export default class Contact extends Component {
     email: "",
     message: "",
     isSent: false,
-    x: 0,
-    y: 0,
-  };
-
-  componentDidMount() {
-    sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
-  }
-
-  setPropertyXY = (e) => {
-    const el = e.target;
-    this.setState({
-      x: (e.clientX - el.offsetLeft) / el.offsetWidth,
-      y: (e.clientY - el.offsetTop) / el.offsetHeight,
-    });
-    document.documentElement.style.setProperty("--wavecoord-x", this.state.x) &&
-      document.documentElement.style.setProperty("--wavecoord-y", this.state.y);
+    isLoading: false
   };
   change = (e) => {
     this.setState({
       [e.target.id]: e.target.value,
     });
   };
-  // submit = (e) => {
-  //   e.preventDefault();
-
-  //   if (this.state.email && this.state.name && this.state.message) {
-  //     // send email to gmail
-
-  //     this.setState({ isSent: true });
-  //   } else {
-  //     alert("vous devez remplir tout les champs");
-  //   }
-  // };
   handleSubmit = (e) => {
     e.preventDefault();
-
-
     const data = new FormData();
     data.append("Name", this.state.name);
     data.append("Emaile", this.state.email);
     data.append("Message", this.state.message);
-    // data.append("campaignsData", JSON.stringify(new Array (globalState.campaignsData))); 
-    if (this.state.email && this.state.name && this.state.message) {
-      // send email to gmail
-      axios({
-        method: "post",
-        // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
-        url: "https://enqjdk9tlbly2w.m.pipedream.net",
-        data: data,
-        header: {
-          Accept: "application/json",
-          "Content-Type": "application/json"
-        },
-        // receive two    parameter endpoint url ,form data
-      })
-        .then((res) => {
-          // then print response status
-          console.log(res);
-          this.setState({ isSent: true });
-        })
-        .catch((e) => {
-          console.log(e);
-        });
-
-    } else {
-      alert("vous devez remplir tout les champs");
-    }
-
-
+    this.setState({ isLoading: true })
     axios({
       method: "post",
       // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
@@ -96,19 +40,23 @@ export default class Contact extends Component {
         // then print response status
         console.log(res);
         this.setState({ isSent: true });
+        this.setState({ isLoading: false })
       })
       .catch((e) => {
         console.log(e);
+        this.setState({ isLoading: false })
       });
   };
+
   render() {
+
     return (
       <div>
         <p style={{ fontSize: "20px", fontWeight: "lighter" }}>
           Vous souhaitez me contacter ? <br />
           C'est parti !
         </p>
-        <form className="form">
+        <form onSubmit={this.handleSubmit} className="form">
           <div class="form-group">
             <input
               className="form"
@@ -119,6 +67,7 @@ export default class Contact extends Component {
               id="name"
               aria-describedby="emailHelp"
               placeholder="Votre nom"
+              required
             />
           </div>
           <div class="form-group">
@@ -127,7 +76,7 @@ export default class Contact extends Component {
               style={{ fontSize: "20px", fontWeight: "lighter" }}
               onChange={this.change}
               type="email"
-              required="true"
+              required
               class="form-control"
               id="email"
               placeholder="Votre email"
@@ -138,17 +87,18 @@ export default class Contact extends Component {
             className="form"
             style={{ fontSize: "20px", fontWeight: "lighter" }}
             onChange={this.change}
+            required
             class="form-control"
             id="message"
             rows="3"
             placeholder="Tapez votre message ici..."
           ></textarea>
-          <button onClick={this.handleSubmit} type="button" class="btn-purpel btn">
+          <button disabled={this.state.isSent || this.state.isLoading} type="submit" class="btn-purpel btn">
             Envoyer le message
           </button>
         </form>
         <div className="message_succes">
-          {this.state.isSent && (
+          {this.state.isSent && !this.state.isLoading && (
             <p style={{ color: "#3f76d4" }}>
               <FontAwesomeIcon
                 style={{
