@@ -56,6 +56,25 @@ export default class Contact extends Component {
     // data.append("campaignsData", JSON.stringify(new Array (globalState.campaignsData))); 
     if (this.state.email && this.state.name && this.state.message) {
       // send email to gmail
+      axios({
+        method: "post",
+        // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
+        url: "https://enqjdk9tlbly2w.m.pipedream.net",
+        data: data,
+        header: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        },
+        // receive two    parameter endpoint url ,form data
+      })
+        .then((res) => {
+          // then print response status
+          console.log(res);
+          this.setState({ isSent: true });
+        })
+        .catch((e) => {
+          console.log(e);
+        });
 
     } else {
       alert("vous devez remplir tout les champs");
