@@ -76,10 +76,7 @@ export default class Contact extends Component {
     })
       .then((res) => {
         // then print response status
-        console.log(res.statusText);
-
-
-
+        console.log(res);
       })
       .catch((e) => {
         console.log(e);
