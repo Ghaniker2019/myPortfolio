@@ -57,7 +57,6 @@ export default class Contact extends Component {
     if (this.state.email && this.state.name && this.state.message) {
       // send email to gmail
 
-      this.setState({ isSent: true });
     } else {
       alert("vous devez remplir tout les champs");
     }
@@ -77,6 +76,7 @@ export default class Contact extends Component {
       .then((res) => {
         // then print response status
         console.log(res);
+        this.setState({ isSent: true });
       })
       .catch((e) => {
         console.log(e);
