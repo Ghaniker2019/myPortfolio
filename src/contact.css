@@ -12,6 +12,8 @@
   position: relative;
   margin-top: 60px;
   border: 1px solid #3f76d4;
+  min-width: 120px;
+  max-height:50px;
 }
 .btn.btn-purpel::before {
   content: "";
@@ -44,7 +46,7 @@
 }
 @media (max-width: 1420px) {
   .form {   
-    margin: 80px 60px
+    margin: 80px 40px
   }
 }
 .message_succes {

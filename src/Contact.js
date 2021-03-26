@@ -94,7 +94,7 @@ export default class Contact extends Component {
             placeholder="Tapez votre message ici..."
           ></textarea>
           <button disabled={this.state.isSent || this.state.isLoading} type="submit" class="btn-purpel btn">
-            Envoyer le message
+            Envoyer
           </button>
         </form>
         <div className="message_succes">
