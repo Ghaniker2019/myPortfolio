@@ -66,11 +66,11 @@ export default class Contact extends Component {
     axios({
       method: "post",
       // url: "https://hooks.zapier.com/hooks/catch/1125328/opia3i7/",
-      url: "https://hooks.zapier.com/hooks/catch/1125328/on6znrg/",
+      url: "https://enqjdk9tlbly2w.m.pipedream.net",
       data: data,
       header: {
         Accept: "application/json",
-        "Content-Type": "multipart/form-data;charset=utf-32"
+        "Content-Type": "application/json"
       },
       // receive two    parameter endpoint url ,form data
     })
