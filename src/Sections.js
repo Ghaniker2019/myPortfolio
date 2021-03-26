@@ -37,7 +37,7 @@ class Sections extends React.Component {
             </ul>
           </nav>
           <section id="section01">
-            <article className="article01">
+            <article className="article">
               <h1 className="titles">Qui suis - je</h1>
               <p style={{ textAlign: "justify" }}>
                 Je m'appelle Kerkoub Abdelghani. Je suis développeur Web &

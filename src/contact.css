@@ -37,13 +37,14 @@
   background: white;
   border: 1px solid #3f76d4;
 }
-
+@media (min-width: 1420px) {
 .form {
-  margin: 80px 25% 15px 25%;
+  margin: 80px 200px;
 }
-@media (max-width: 620px) {
-  .form {
-    margin: 80px 5% 15px 5%;
+}
+@media (max-width: 1420px) {
+  .form {   
+    margin: 80px 60px
   }
 }
 .message_succes {

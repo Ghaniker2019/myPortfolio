@@ -51,7 +51,7 @@ export default class Contact extends Component {
   render() {
 
     return (
-      <div>
+      <div className="container-form">
         <p style={{ fontSize: "20px", fontWeight: "lighter" }}>
           Vous souhaitez me contacter ? <br />
           C'est parti !
