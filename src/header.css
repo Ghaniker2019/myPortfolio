@@ -40,3 +40,28 @@
   -webkit-filter: drop-shadow(5px 5px 5px #3f76d4);
   filter: drop-shadow(5px 5px 5px #3f76d4);
 }
+.imgLinkInsta{
+  width: 60px;
+  padding:10px;
+  opacity: 0.6;
+}
+.imgLinkInsta:hover{
+  opacity: 1;
+}
+.imgLinkGit{
+  width: 60px;
+  padding:10px;
+  border-radius: 50px;
+  opacity: 0.6;
+}
+.imgLinkGit:hover{
+  opacity: 1;
+}
+.imgLinkLinkedin{
+  width: 80px;
+  padding:10px;
+  opacity: 0.6;
+}
+.imgLinkLinkedin:hover{
+  opacity: 1;
+}
